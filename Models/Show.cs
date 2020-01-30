@@ -11,6 +11,6 @@ namespace Booking.API.Models
         public string Price { get; set; }
         public int SaloonID { get; set; }
         public Saloon ThisSaloon { get; set; }
-        public IList<Seat> Seats { get; set; } = new List<Seat>();
+        public IList<Seat> Seats { get; set; }
     }
 }

@@ -8,6 +8,6 @@ namespace Booking.API.Models
         public int Y { get; set; }
         public int SaloonID { get; set; }
         public Saloon ThisSaloon { get; set; }
-        public IList<Ticket> Tickets { get; set; } = new List<Ticket>();
+        public IList<Ticket> Tickets { get; set; }
     }
 }
